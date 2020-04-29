@@ -207,13 +207,42 @@ body {
     line-height: 24px;
     font-weight: 400;
     color: #555555;
+    margin: 0 20px;
 }
-.icon_5 {
-    content: '✔';
-    width: 100px;
-    height: 100px;
-    color: orange;
+.sections_image {
+    display: flex;
+}
+.first_image {
     position: relative;
-    top: 0;
-    left: 0;
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+.fa_angel_left {
+    fill: #dddddd;
+    position: absolute;
+    top: 115px;
+    padding: 10px;
+    background-color: #c0301c;
+    &:hover {
+        background-color: #8c8d8d;
+    }
+}
+.last_image {
+    position: relative;
+    &:hover {
+        opacity: 0.5;
+    }
+}
+.fa_angel_right {
+    fill: #dddddd;
+    position: absolute;
+    top: 115px;
+    left: 232px;
+    padding: 10px;
+    background-color: #c0301c;
+    &:hover {
+        background-color: #8c8d8d;
+    }
 }
